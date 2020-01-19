@@ -1,0 +1,206 @@
+.meni {
+    margin-top:100px;
+    background-color: lightblue;
+    position: relative;
+    height: 15%;
+    margin-bottom: 5%;
+    min-height: 500px;
+    font-size: 30px;
+    
+}
+
+#linkRezervacija {
+    text-decoration: none;
+}
+
+ul {
+    padding-top: 10%;
+    overflow: auto;  
+}
+
+li {
+    font-size: 100%;
+    display: inline;
+    margin-right: 10%;
+}
+
+
+.sadrzaj {
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+    min-height: 1100px;
+    min-width: 700px;
+}
+
+html {
+    height: 100%;
+    
+}
+
+body {
+    min-width: 200px;
+    height: 100%;
+    width:100%;
+    margin: 0;
+    
+}
+
+.logo {
+    background-color: red;
+    width:200px;
+    height:200px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    bottom: 100px;
+}
+
+#glavnaSlika {
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+}
+
+.dugmeK {
+    width: 10%;
+    text-align: center;
+    height: 5%;
+    margin-top: 2%;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+
+
+#dugme {
+    margin-right: 70%;
+    margin-left: 5%;
+}
+
+.dropDown {
+    margin-left: 45%;
+    margin-bottom: 5%;
+    
+}
+
+/*.dronBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    
+}
+*/
+/*
+.dropContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}*/
+/*
+.dropDown:hover .dropContent {display: block;}
+*/
+.Kalendar {
+    margin-top: 30px;
+    border: 1px solid blue;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 54%;
+    padding: 8%;
+}
+
+label {
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+
+.grid-container {
+    margin-top: 30px; 
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 4%;
+    background-color: lightblue;
+    padding: 2%;
+  }
+  
+  
+
+
+
+.slobodna {
+    background: linear-gradient(white 70%, green 30%);
+
+    text-align: center;
+    border: 1px solid blue;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.zauzeta {
+    background: linear-gradient(white 70%, red 30%);
+
+    text-align: center;
+    border: 1px solid blue;
+    padding: 20px;
+    font-size: 20px;
+}
+
+form {
+    padding-left: 22%;
+}
+
+.grid-item1 {
+    
+    text-align: center;
+    border: 1px solid blue;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.grid-item2 {
+    background-color: lightblue;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+}
+  
+  
+
+@media (max-width: 600px) {
+    .nema {
+        display: none;
+    }
+
+    .grid-item2 {
+        background-color: grey;
+        text-align: center;
+    border: 1px solid blue;
+    padding: 10px;
+    font-size: 20px;
+    }
+    
+.Kalendar {
+    height: 60%;
+}
+
+    .grid-container {
+        margin-top: 30px; 
+        display: block;
+        grid-gap: 4%;
+        background-color: lightblue;
+        padding: 10px;
+    font-size: 20px;
+        padding: 2%;
+        
+}
+}

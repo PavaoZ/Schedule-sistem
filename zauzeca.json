@@ -1,0 +1,116 @@
+{
+  "periodicna": [
+    {
+      "dan": 0,
+      "semestar": "zimski",
+      "pocetak": "10:35",
+      "kraj": "11:15",
+      "naziv": "0-02",
+      "predavac": "prof. Miroslav"
+    },
+    {
+      "dan": 1,
+      "semestar": "zimski",
+      "pocetak": "10:35",
+      "kraj": "11:15",
+      "naziv": "0-02",
+      "predavac": "prof. Miroslav"
+    },
+    {
+      "dan": 3,
+      "semestar": "zimski",
+      "pocetak": "10:35",
+      "kraj": "11:15",
+      "naziv": "0-01",
+      "predavac": "prof. Miroslav"
+    },
+    {
+      "dan": 4,
+      "semestar": "zimski",
+      "pocetak": "10:35",
+      "kraj": "11:15",
+      "naziv": "0-03",
+      "predavac": "prof. Miroslav"
+    },
+    {
+      "dan": 6,
+      "semestar": "zimski",
+      "pocetak": "10:35",
+      "kraj": "11:15",
+      "naziv": "0-01",
+      "predavac": "prof. Miroslav"
+    }
+  ],
+  "vanredna": [
+    {
+      "datum": "19.12.2019",
+      "pocetak": "10:35",
+      "kraj": "11:15",
+      "naziv": "0-01",
+      "predavac": "prof. Miroslav"
+    },
+    {
+      "datum": "20.10.2019",
+      "pocetak": "10:35",
+      "kraj": "11:15",
+      "naziv": "0-03",
+      "predavac": "prof. Miroslav"
+    },
+    {
+      "datum": "23.11.2019",
+      "pocetak": "10:35",
+      "kraj": "11:15",
+      "naziv": "0-02",
+      "predavac": "prof. Miroslav"
+    },
+    {
+      "datum": "21.10.2019",
+      "pocetak": "10:35",
+      "kraj": "11:15",
+      "naziv": "0-01",
+      "predavac": "prof. Miroslav"
+    },
+    {
+      "datum": "11.12.2019",
+      "pocetak": "07:00",
+      "kraj": "19:00",
+      "naziv": "0-02",
+      "predavac": "nepoznat"
+    },
+    {
+      "datum": "11.12.2019",
+      "pocetak": "07:00",
+      "kraj": "19:00",
+      "naziv": "0-02",
+      "predavac": "nepoznat"
+    },
+    {
+      "datum": "01.1.2020",
+      "pocetak": "07:00",
+      "kraj": "19:00",
+      "naziv": "0-02",
+      "predavac": "nepoznat"
+    },
+    {
+      "datum": "01.1.2020",
+      "pocetak": "07:00",
+      "kraj": "19:00",
+      "naziv": "0-02",
+      "predavac": "nepoznat"
+    },
+    {
+      "datum": "01.1.2020",
+      "pocetak": "08:00",
+      "kraj": "21:03",
+      "naziv": "0-02",
+      "predavac": "nepoznat"
+    },
+    {
+      "datum": "01.1.2020",
+      "pocetak": "08:00",
+      "kraj": "21:03",
+      "naziv": "0-02",
+      "predavac": "nepoznat"
+    }
+  ]
+}

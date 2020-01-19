@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href = "/static/pocetna.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+        <div class = "meni">
+            <div class = "logo">
+                <img  id = "glavnaSlika" src = "/static/dizajn.jpg" alt="Ovdje nema slike :(">
+            </div>
+            
+                <ul id = "lista">
+                    <li>
+                        <a id = "linkPocetna" href ="pocetna.html">Početna</a>
+                    </li>
+                    <li>
+                        <a href ="sale.html">Sale</a>
+                    </li>
+                    <li>
+                        <a href ="unos.html"><u>Unos</u></a>
+                    </li>
+                    <li>
+                        <a href ="rezervacija.html"><u>Rezervacije</u></a>
+                    </li>
+                    <li>
+                        <a href =""><u>Osobe</u></a>
+                    </li>
+                </ul> 
+            
+                     
+        </div>
+        
+        <div class = "sadrzaj">
+            <div class="grid-container">
+                <div class="grid-item"><img id = "Slika1"  src = "/static/maca.jpg" alt = "Nema mace :("></div>
+                <div class="grid-item"><img id = "Slika2" src = "/static/maca.jpg" alt = "Nema mace :("></div>
+                <div class="grid-item"><img id = "Slika3" src = "/static/naocale.jpeg" alt = "Nema mace :("></div>
+                
+            </div>
+        </div>
+
+
+        <input class = "dugmeK" id = "dugmea" type = "button" name = "prethodni" value = "Prethodni" onclick="prosleTri()">
+        <input class = "dugmeK" id = "dugmeZaNaprijeda" type = "button" name = "sljedeci" value = "Sljedeći" onclick="sljedeceTri()">
+
+        
+            <input class = "dugmeK" id = "brojPosjetilaca" type = "button" name = "prikaz" value = "Prikaz posjetilaca" onclick = "zaBrojPosjetilaca()">
+        
+        
+        
+                       
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore.js" type="text/javascript"></script>
+        <script type="text/javascript" src = "/static/kalendar.js"></script>
+        <script type="text/javascript" src = "/static/pocetna.js"></script>
+        
+    </body>
+</html>
+

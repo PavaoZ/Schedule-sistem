@@ -1,0 +1,203 @@
+.logo {
+    background-color: red;
+    width:200px;
+    height:200px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    bottom: 100px;
+}
+
+.headerRedni {
+    padding-left: 15px;
+    text-align: left;
+    height: 100px;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+
+.kancelarija {
+    background-color: grey;
+}
+
+.zauzetaSala {
+    background-color: orange;
+}
+
+.slobodnaSala {
+    background-color: green;
+}
+
+.headerSprat {
+    background-color: grey;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.sala {
+    background-color: white;
+    padding-left: 10px;
+    width: 13%;
+    border: 1px solid black;
+}
+
+
+#praznaKolona {
+    border-collapse: collapse;
+    color: lightblue;
+    width: 250px;
+    height: 150px;
+}
+
+.tabelaSala {
+    font-size: 30px;
+    width: 75%;
+    margin-left: 5%;
+    position: relative;
+    top: 5%;
+    border-collapse: collapse;
+}
+
+.meni {
+    margin-top:100px;
+    background-color: lightblue;
+    position: relative;
+    height: 15%;
+    margin-bottom: 5%;
+    min-height: 500px;
+    font-size: 30px;
+    
+}
+
+.sadrzaj {
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+    min-height: 2000px;
+}
+
+html {
+    
+    height: 100%;
+    
+}
+
+body {
+    min-width: 200px;
+    height: 100%;
+    width:100%;
+    margin: 0;
+    min-height: 1000px;
+}
+
+ul {
+    padding-top: 10%;
+    overflow: auto;  
+}
+
+li {
+    font-size: 100%;
+    display: inline;
+    margin-right: 10%;
+}
+
+#LinkSale {
+    text-decoration: none;
+}
+
+@media all and (max-width: 600px) {
+    li {
+        display: block;
+    }
+
+    .headerRedni {
+        display: none;
+    }
+
+    .nestati {
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media all (min-width: 600px) {
+    .headerRedni {
+        padding-left: 15px;
+        text-align: left;
+        height: 50px;
+        background-color: lightgrey;
+        border: 1px solid black;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media all (min-width: 768px) {
+    .headerRedni {
+        padding-left: 15px;
+        text-align: left;
+        height: 50px;
+        background-color: lightgrey;
+        border: 1px solid black;
+    }
+
+    ul {
+        padding-top: 15%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media all (min-width: 992px) {
+    .headerRedni {
+        padding-left: 15px;
+        text-align: left;
+        height: 50px;
+        background-color: lightgrey;
+        border: 1px solid black;
+    }
+    
+    ul {
+       font-size: 115%;
+    }
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media all (min-width: 1200px) {
+    .headerRedni {
+        padding-left: 15px;
+        text-align: left;
+        height: 50px;
+        background-color: lightgrey;
+        border: 1px solid black;
+    }
+
+    ul {
+        padding-top: 10%;
+        font-size: 130%;
+    }
+}
+
+
+@media all (min-width: 2000px) {
+    ul {
+        padding-top: 7%;
+        font-size: 50px;
+    }
+}
+
+@media all and (min-width: 2500px) {
+    ul {
+        padding-top: 6%;
+        font-size: 50px;
+    }
+}
+
+@media all and (min-width: 3000px) {
+    ul {
+        padding-top: 5%;
+        font-size: 50px;
+    }
+}

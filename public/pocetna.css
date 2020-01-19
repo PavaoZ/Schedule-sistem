@@ -1,0 +1,203 @@
+.meni {
+    margin-top:100px;
+    background-color: lightblue;
+    position: relative;
+    height: 15%;
+    margin-bottom: 5%;
+    min-height: 500px;
+    font-size: 30px;
+    
+}
+
+.dugmeK {
+    width: 10%;
+    text-align: center;
+    height: 5%;
+    margin-top: 2%;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+#linkPocetna {
+    text-decoration: none;
+}
+
+ul {
+    padding-top: 10%;
+    overflow: auto;  
+}
+
+li {
+    font-size: 100%;
+    display: inline;
+    margin-right: 10%;
+}
+
+#dugme {
+    margin-right: 70%;
+    margin-left: 5%;
+}
+
+.sadrzaj {
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+    min-height: 1000px;
+}
+
+html {
+    height: 100%;
+    
+}
+
+body {
+    min-width: 200px;
+    height: 100%;
+    width:100%;
+    margin: 0;
+    
+}
+
+.logo {
+    background-color: red;
+    width:200px;
+    height:200px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    bottom: 100px;
+}
+
+#glavnaSlika {
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+}
+
+img {
+    margin:2%;
+    width: 250px;
+    height: 250px;
+}
+
+
+.grid-container { 
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5%;
+    border: 1px solid black;
+    background-color: blue;
+}
+
+
+.grid-container > div {
+    background-color: blue;
+    text-align: center;
+    padding: 20px 0;
+    border: 1px solid black;
+    
+}
+ 
+@media (max-width: 600px){
+    li {
+        display: block;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 600px){
+    
+
+    ul {
+        padding-top: 15%;
+    }
+    body .sadrzaj > .grid-container { 
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 2%;
+        border: 1px solid black;
+        background-color: blue;
+    }
+}
+
+@media (min-width: 900px){
+    ul {
+        padding-top: 15%;
+    }
+    body .sadrzaj > .grid-container { 
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: 2%;
+        border: 1px solid black;
+        background-color: blue;
+    }
+}
+  
+@media (min-width: 1000px){
+    ul {
+        padding-top: 15%;
+    }
+    body .sadrzaj > .grid-container { 
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: 2%;
+        border: 1px solid black;
+        background-color: blue;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    ul {
+        padding-top: 15%;
+    }
+    
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    ul {
+       font-size: 115%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    ul {
+        padding-top: 10%;
+        font-size: 130%;
+    }
+}
+
+
+@media only screen and (min-width: 1900px) {
+    ul {
+        padding-top: 7%;
+        font-size: 50px;
+    }
+
+    .grid-container {
+        height: 150vh;
+    }
+}
+
+@media only screen and (min-width: 2500px) {
+    ul {
+        padding-top: 6%;
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 3000px) {
+    ul {
+        padding-top: 5%;
+        font-size: 50px;
+    }
+}

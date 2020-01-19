@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8" />
+   <title>testoviS2</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css" />
+   <link rel="stylesheet" href="cssTestoviZaS2.css" />
+   <style>
+   td{
+     border: 1px solid black;
+     height: 20px;
+     width: 20px;
+   }
+   </style>
+ </head>
+ <body>
+
+
+        <div class = "sadrzaj">
+                <form>
+                        <label for="selectSale">Sala</label>
+                        <select id="selectSale" name="sale" onchange="akoSeDesiPromjenaUFormElementuNekom()">
+                            <option value="0-01">0-01</option>
+                            <option value="0-02">0-02</option>
+                            <option value="0-03">0-03</option>
+                            <option value="0-04">0-04</option>
+                            <option value="0-05">0-05</option>
+                            <option value="0-06">0-06</option>
+                            <option value="0-07">0-07</option>
+                            <option value="0-08">0-08</option>
+                            <option value="0-09">0-09</option>
+                            <option value="1-01">1-01</option>
+                            <option value="1-02">1-02</option>
+                            <option value="1-03">1-03</option>
+                            <option value="1-04">1-04</option>
+                            <option value="1-05">1-05</option>
+                            <option value="1-06">1-06</option>
+                            <option value="1-07">1-07</option>
+                            <option value="1-08">1-08</option>
+                            <option value="1-09">1-09</option>
+                            <option value="2-01">2-01</option>
+                            <option value="2-02">2-02</option>
+                            <option value="2-03">2-03</option>
+                            <option value="2-04">2-04</option>
+                            <option value="2-05">2-05</option>
+                            <option value="2-06">2-06</option>
+                            <option value="2-07">2-07</option>
+                            <option value="2-08">2-08</option>
+                            <option value="2-09">2-09</option>
+                            <option value="3-01">3-01</option>
+                            <option value="3-02">3-02</option>
+                            <option value="3-03">3-03</option>
+                            <option value="3-04">3-04</option>
+                            <option value="3-05">3-05</option>
+                            <option value="3-06">3-06</option>
+                            <option value="3-07">3-07</option>
+                            <option value="3-08">3-08</option>
+                            <option value="3-09">3-09</option>
+                            <option value="VA1">VA1</option>
+                            <option value="VA2">VA2</option>
+                            <option value="MA">MA</option>
+                            <option value="EE1">EE1</option>
+                            <option value="EE2">EE2</option>
+                            <option value="S0">S0</option>
+                        </select>
+                    <label for = "per">Vrsta rezervacije</label>
+                    <input id = "per" class = "periodicnost" type = "checkbox" name = "odabir">
+                    <label for = "poc">Početak</label>
+                    <input id = "poc" type = "time" name = "pocetak" onchange = "akoSeDesiPromjenaUFormElementuNekom()">
+                    <label for = "kra">Kraj</label>
+                    <input id = "kra" type = "time" name = "kraj" onchange = "akoSeDesiPromjenaUFormElementuNekom()">
+                </form>
+                        
+                
+                
+                <div class = "Kalendar">
+                    <label id = "mjesecLabel"></label>
+                    <div class="grid-container">
+                        <div class="grid-item1">PON</div>
+                        <div class="grid-item1">UTO</div>
+                        <div class="grid-item1">SRI</div>
+                        <div class="grid-item1">ČET</div>
+                        <div class="grid-item1">PET</div>
+                        <div class="grid-item1">SUB</div>
+                        <div class="grid-item1">NED</div>
+                        <div class="grid-item2"></div>
+                        <div class="grid-item2"></div>
+                        <div class="grid-item2"></div>
+                        <div class="grid-item2"></div>                    
+                        <div class="slobodna">1</div>
+                        <div class="slobodna">2</div>
+                        <div class="slobodna">3</div>
+                        <div class="slobodna nema">4</div>
+                        <div class="slobodna nema">5</div>
+                        <div class="slobodna nema">6</div>
+                        <div class="slobodna nema">7</div>
+                        <div class="zauzeta nema">8</div>
+                        <div class="zauzeta nema">9</div>
+                        <div class="slobodna nema">10</div>
+                        <div class="slobodna nema">11</div>
+                        <div class="slobodna nema">12</div>
+                        <div class="slobodna nema">13</div>
+                        <div class="zauzeta nema">14</div>
+                        <div class="slobodna nema">15</div>
+                        <div class="zauzeta nema">16</div>
+                        <div class="slobodna nema">17</div>
+                        <div class="slobodna nema">18</div>
+                        <div class="slobodna nema">19</div>
+                        <div class="zauzeta nema">20</div>
+                        <div class="slobodna nema">21</div>
+                        <div class="slobodna nema">22</div>
+                        <div class="slobodna nema">23</div>
+                        <div class="zauzeta nema">24</div>
+                        <div class="slobodna nema">25</div>
+                        <div class="slobodna nema">26</div>
+                        <div class="zauzeta nema">27</div>
+                        <div class="zauzeta nema">28</div>
+                        <div class="zauzeta nema">29</div>
+                        <div class="slobodna nema">30</div>
+                        <div class="grid-item2"></div>
+                        <div class="grid-item2"></div>
+                        <div class="grid-item2"></div>
+                        <div class="grid-item2"></div>
+                        <div class="grid-item2"></div>
+                        <div class="grid-item2"></div>
+                        <div class="grid-item2"></div>
+                        <div class="grid-item2"></div> 
+                    </div>
+                </div>
+            </div>
+
+            <input class = "dugmeK" id = "dugme" type = "button" name = "prethodni" value = "Prethodni" onclick = "pozivZaPrethodni()">
+        <input class = "dugmeK" id = "dugmeZaNaprijed" type = "button" name = "sljedeci" value = "Sljedeći" onclick="pozivZaSljedeci()">
+        <script type="text/javascript" src = "Kalendar.js"></script>
+        <script type="text/javascript" src = "pomocnaSkripta.js"></script>
+
+
+   <div id="ispis"></div>
+   <div id="mocha"></div>
+ 
+   <script src="https://unpkg.com/chai/chai.js"></script>
+   <script src="https://unpkg.com/mocha/mocha.js"></script>
+ 
+   <script class="mocha-init">
+     mocha.setup('bdd');
+     mocha.checkLeaks();
+     mocha.setup({ignoreLeaks: true});
+   </script>
+   <script src="kalendar.js"></script>
+   <script src="test.js"></script>
+   
+   <script class="mocha-exec">
+     mocha.run();
+   </script>
+ </body>
+</html>

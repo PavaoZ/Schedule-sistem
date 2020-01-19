@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href = "/static/rezervacija.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+        <div class = "meni">
+            <div class = "logo">
+                <img  id = "glavnaSlika" src = "/static/dizajn.jpg" alt="Ovdje nema slike :(">
+            </div>
+
+            
+                <ul id = "lista">
+                    <li>
+                        <a href ="pocetna.html"><u>Početna</u></a>
+                    </li>
+                    <li>
+                        <a href ="sale.html">Sale</a>
+                    </li>
+                    <li>
+                        <a href ="unos.html"><u>Unos</u></a>
+                    </li>
+                    <li>
+                        <a id = "linkRezervacija" href ="">Rezervacije</a>
+                    </li>
+                    <li>
+                        <a href =""><u>Osobe</u></a>
+                    </li>
+                </ul>
+            
+                     
+        </div>
+        
+        <div class = "sadrzaj">
+            
+
+
+
+            <form>
+
+
+
+
+                    <label for="selectSale">Sala</label>
+                    <select id="selectSale" name="sale" onchange="akoSeDesiPromjenaUFormElementuNekom()">
+                        <option value="0-01">0-01</option>
+                        <option value="0-02">0-02</option>
+                        <option value="0-03">0-03</option>
+                        <option value="0-04">0-04</option>
+                        <option value="0-05">0-05</option>
+                        <option value="0-06">0-06</option>
+                        <option value="0-07">0-07</option>
+                        <option value="0-08">0-08</option>
+                        <option value="0-09">0-09</option>
+                        <option value="1-01">1-01</option>
+                        <option value="1-02">1-02</option>
+                        <option value="1-03">1-03</option>
+                        <option value="1-04">1-04</option>
+                        <option value="1-05">1-05</option>
+                        <option value="1-06">1-06</option>
+                        <option value="1-07">1-07</option>
+                        <option value="1-08">1-08</option>
+                        <option value="1-09">1-09</option>
+                        <option value="2-01">2-01</option>
+                        <option value="2-02">2-02</option>
+                        <option value="2-03">2-03</option>
+                        <option value="2-04">2-04</option>
+                        <option value="2-05">2-05</option>
+                        <option value="2-06">2-06</option>
+                        <option value="2-07">2-07</option>
+                        <option value="2-08">2-08</option>
+                        <option value="2-09">2-09</option>
+                        <option value="3-01">3-01</option>
+                        <option value="3-02">3-02</option>
+                        <option value="3-03">3-03</option>
+                        <option value="3-04">3-04</option>
+                        <option value="3-05">3-05</option>
+                        <option value="3-06">3-06</option>
+                        <option value="3-07">3-07</option>
+                        <option value="3-08">3-08</option>
+                        <option value="3-09">3-09</option>
+                        <option value="VA1">VA1</option>
+                        <option value="VA2">VA2</option>
+                        <option value="MA">MA</option>
+                        <option value="EE1">EE1</option>
+                        <option value="EE2">EE2</option>
+                        <option value="S0">S0</option>
+                    </select>
+                <label for = "per">Vrsta rezervacije</label>
+                <input id = "per" class = "periodicnost" type = "checkbox" name = "odabir" onchange = "akoSeDesiPromjenaUFormElementuNekom()">
+                <label for = "poc">Početak</label>
+                <input id = "poc" type = "time" name = "pocetak" onchange = "akoSeDesiPromjenaUFormElementuNekom()">
+                <label for = "kra">Kraj</label>
+                <input id = "kra" type = "time" name = "kraj" onchange = "akoSeDesiPromjenaUFormElementuNekom()">
+            </form>
+                    
+            
+            
+            <div class = "Kalendar">
+                <label id = "mjesecLabel"></label>
+                <div class="grid-container">
+                    <div class="grid-item1">PON</div>
+                    <div class="grid-item1">UTO</div>
+                    <div class="grid-item1">SRI</div>
+                    <div class="grid-item1">ČET</div>
+                    <div class="grid-item1">PET</div>
+                    <div class="grid-item1">SUB</div>
+                    <div class="grid-item1">NED</div>
+                    <div class="grid-item2" onclick = "opcijaRezervisanja(event)"></div>
+                    <div class="grid-item2" onclick = "opcijaRezervisanja(event)"></div>
+                    <div class="grid-item2" onclick = "opcijaRezervisanja(event)"></div>
+                    <div class="grid-item2" onclick = "opcijaRezervisanja(event)"></div>                    
+                    <div class="slobodna" onclick = "opcijaRezervisanja(event)">1</div>
+                    <div class="slobodna" onclick = "opcijaRezervisanja(event)">2</div>
+                    <div class="slobodna" onclick = "opcijaRezervisanja(event)">3</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">4</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">5</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">6</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">7</div>
+                    <div class="zauzeta nema" onclick = "opcijaRezervisanja(event)">8</div>
+                    <div class="zauzeta nema" onclick = "opcijaRezervisanja(event)">9</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">10</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">11</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">12</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">13</div>
+                    <div class="zauzeta nema" onclick = "opcijaRezervisanja(event)">14</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">15</div>
+                    <div class="zauzeta nema" onclick = "opcijaRezervisanja(event)">16</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">17</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">18</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">19</div>
+                    <div class="zauzeta nema" onclick = "opcijaRezervisanja(event)">20</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">21</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">22</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">23</div>
+                    <div class="zauzeta nema" onclick = "opcijaRezervisanja(event)">24</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">25</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">26</div>
+                    <div class="zauzeta nema" onclick = "opcijaRezervisanja(event)">27</div>
+                    <div class="zauzeta nema" onclick = "opcijaRezervisanja(event)">28</div>
+                    <div class="zauzeta nema" onclick = "opcijaRezervisanja(event)">29</div>
+                    <div class="slobodna nema" onclick = "opcijaRezervisanja(event)">30</div>
+                    <div class="grid-item2" onclick = "opcijaRezervisanja(event)"></div>
+                    <div class="grid-item2" onclick = "opcijaRezervisanja(event)"></div>
+                    <div class="grid-item2" onclick = "opcijaRezervisanja(event)"></div>
+                    <div class="grid-item2" onclick = "opcijaRezervisanja(event)"></div>
+                    <div class="grid-item2" onclick = "opcijaRezervisanja(event)"></div>
+                    <div class="grid-item2" onclick = "opcijaRezervisanja(event)"></div>
+                    <div class="grid-item2" onclick = "opcijaRezervisanja(event)"></div>
+                    <div class="grid-item2" onclick = "opcijaRezervisanja(event)"></div> 
+                </div>
+            </div>
+        </div>
+
+        <input class = "dugmeK" id = "dugme" type = "button" name = "prethodni" value = "Prethodni" onclick = "pozivZaPrethodni()">
+        <input class = "dugmeK" id = "dugmeZaNaprijed" type = "button" name = "sljedeci" value = "Sljedeći" onclick="pozivZaSljedeci()">
+        <script type="text/javascript" src = "/static/kalendar.js"></script>
+        <script type="text/javascript" src = "/static/pomocnaSkripta.js"></script>
+        <script type="text/javascript" src = "/static/rezervacija.js"></script>
+        
+        
+        
+        
+        
+        
+        
+    </body>
+</html>
+
+
+

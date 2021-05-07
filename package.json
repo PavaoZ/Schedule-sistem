@@ -315,7 +315,7 @@
       "resolved": "https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz",
       "version": "1.6.18"
     },
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "unpipe": {
       "integrity": "sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=",
       "resolved": "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz",
